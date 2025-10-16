@@ -60,7 +60,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9X-Vd-2JR">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9X-Vd-2JR">
                                             <rect key="frame" x="35" y="44" width="31" height="15"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -79,7 +79,9 @@
                                         <constraint firstAttribute="bottom" secondItem="O9X-Vd-2JR" secondAttribute="bottom" constant="6" id="WQr-ab-Fy6"/>
                                         <constraint firstAttribute="trailing" secondItem="i6l-Yg-2b4" secondAttribute="trailing" constant="38" id="ak3-iE-8R5"/>
                                         <constraint firstItem="i6l-Yg-2b4" firstAttribute="centerY" secondItem="j9X-Eo-Vq2" secondAttribute="centerY" id="eah-qn-pyf"/>
+                                        <constraint firstAttribute="bottom" secondItem="O9X-Vd-2JR" secondAttribute="bottom" constant="6" id="hWC-MF-AWW"/>
                                         <constraint firstItem="Dlg-EM-TaS" firstAttribute="leading" secondItem="j9X-Eo-Vq2" secondAttribute="leadingMargin" constant="7" id="mC4-Kr-YbA"/>
+                                        <constraint firstItem="O9X-Vd-2JR" firstAttribute="leading" secondItem="j9X-Eo-Vq2" secondAttribute="leading" constant="35" id="z9x-dS-rXa"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
