@@ -82,6 +82,11 @@
                                         <constraint firstItem="Dlg-EM-TaS" firstAttribute="leading" secondItem="j9X-Eo-Vq2" secondAttribute="leadingMargin" constant="7" id="mC4-Kr-YbA"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="Dlg-EM-TaS" id="INh-qb-QeK"/>
+                                    <outlet property="serialNumberLabel" destination="O9X-Vd-2JR" id="GdQ-RG-1KI"/>
+                                    <outlet property="valueLabel" destination="i6l-Yg-2b4" id="G1y-Fr-Axc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
