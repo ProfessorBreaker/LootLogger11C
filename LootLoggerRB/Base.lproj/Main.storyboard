@@ -89,6 +89,7 @@
                                     <outlet property="nameLabel" destination="Dlg-EM-TaS" id="INh-qb-QeK"/>
                                     <outlet property="serialNumberLabel" destination="O9X-Vd-2JR" id="GdQ-RG-1KI"/>
                                     <outlet property="valueLabel" destination="i6l-Yg-2b4" id="G1y-Fr-Axc"/>
+                                    <segue destination="gym-yL-Qw1" kind="show" id="tBX-fX-HLq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -102,16 +103,16 @@
             </objects>
             <point key="canvasLocation" x="-287" y="-124"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="j7l-9s-k2m">
             <objects>
-                <viewController id="gym-yL-Qw1" sceneMemberID="viewController">
+                <viewController id="gym-yL-Qw1" customClass="DetailViewController" customModule="LootLoggerRB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bWM-tX-Ft5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j0o-hK-o9e">
-                                <rect key="frame" x="16" y="126" width="361" height="650"/>
+                                <rect key="frame" x="16" y="67" width="361" height="718"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EPx-Iv-hkp">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="34"/>
@@ -162,7 +163,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Date Created" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7c-V6-xaE">
-                                        <rect key="frame" x="0.0" y="102" width="361" height="548"/>
+                                        <rect key="frame" x="0.0" y="102" width="361" height="616"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -183,6 +184,13 @@
                             <constraint firstItem="G2d-tI-ON8" firstAttribute="bottom" secondItem="j0o-hK-o9e" secondAttribute="bottom" constant="8" id="iCA-uA-dM7"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Z8G-Xi-utR"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="o7c-V6-xaE" id="7nH-5B-Qk7"/>
+                        <outlet property="nameField" destination="Efy-h8-bh4" id="BKx-6t-TCb"/>
+                        <outlet property="serialNumberField" destination="m3f-a9-Ggu" id="hbg-ze-HpP"/>
+                        <outlet property="valueField" destination="XdV-bs-OnF" id="bfQ-Kp-G9Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSL-Uc-bXq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
